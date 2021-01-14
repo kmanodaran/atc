@@ -27,6 +27,6 @@ overwrite=true
 -1 "$prefix".tmp_R1.fq -2 "$prefix".tmp_R2.fq -S "$prefix".sam) 2> "$prefix".log
 
 ## Convert to BAM file
-sambamba view -S -f bam "$prefix".sam > "$prefix".bam
-sambamba sort -o "$prefix"_sorted.bam "$prefix".bam
+samtools view -bS "$prefix".sam > "$prefix".bam
+samtools sort "$prefix"_sorted.bam "$prefix".bam
 
