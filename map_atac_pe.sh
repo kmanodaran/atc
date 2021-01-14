@@ -28,5 +28,5 @@ overwrite=true
 
 ## Convert to BAM file
 samtools view -bS "$prefix".sam > "$prefix".bam
-samtools sort "$prefix"_sorted.bam "$prefix".bam
+samtools sort "$prefix".bam "$prefix"_sorted.bam 
 
