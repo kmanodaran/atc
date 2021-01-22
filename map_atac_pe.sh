@@ -26,7 +26,7 @@ overwrite=true
 -x "$index" \
 -1 "$prefix".tmp_R1.fq -2 "$prefix".tmp_R2.fq -S "$prefix".sam) 2> "$prefix".log
 
-## Convert to BAM file
+## Convert to BAM file and indexing 
 samtools view -bS "$prefix".sam > "$prefix".bam
 samtools sort "$prefix".bam "$prefix"_sorted.bam 
-
+samtools index "$prefix"_sorted.bam 
