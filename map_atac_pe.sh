@@ -29,4 +29,4 @@ overwrite=true
 ## Convert to BAM file and indexing 
 samtools view -bS "$prefix".sam > "$prefix".bam
 samtools sort "$prefix".bam "$prefix"_sorted.bam 
-samtools index "$prefix"_sorted.bam 
+
