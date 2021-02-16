@@ -26,5 +26,3 @@ cut -f 1-3 "$prefix"_peaks.narrowPeak > "$prefix"_peaks.bed
 
 # file cleanu
 rm "$prefix".blacklist.bam
-
-#jubos
