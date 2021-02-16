@@ -24,5 +24,5 @@ cut -f 1-3 "$prefix"_peaks.narrowPeak > "$prefix"_peaks.bed
 # bed to bigbed
 #bedToBigBed "$prefix"_peaks.bed hg19.chromSizes "$prefix"_peaks.bigbed
 
-# file cleanu
+# file cleanup
 rm "$prefix".blacklist.bam
