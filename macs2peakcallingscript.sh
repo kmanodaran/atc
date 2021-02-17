@@ -10,13 +10,13 @@ bam=$1
 prefix=$(echo $bam | sed 's/.bam//g')
 
 # Path to blacklisted regions
-blacklist="/home/kmanodaran/working_data_04/atc/ATAC21012021"
+blacklist="/home/kmanodaran/working_data_04/atc/ATAC21012021/ENCFF001TDO.bed"
 
 # Remove blacklist region
 samtools view -L "$blacklist" -U "$prefix".filtered.bam -b "$bam" > "$prefix".blacklist.bam
 
 # Call peaks
-macs2 callpeak --nomodel -t "$prefix".filtered.bam -f BAM -n "$prefix" --keep-dup all --gsize hs
+/home/sbuckberry/miniconda2/bin/macs2 callpeak --nomodel -t "$prefix".filtered.bam -f BAM -n "$prefix" --keep-dup all --gsize hs
 
 # peaks to bed
 cut -f 1-3 "$prefix"_peaks.narrowPeak > "$prefix"_peaks.bed
