@@ -10,7 +10,7 @@ bam=$1
 prefix=$(echo $bam | sed 's/.bam//g')
 
 # Path to blacklisted regions
-blacklist="/home/kmanodaran/working_data_04/atc/ENCFF001TDO.bed.gz"
+blacklist="/home/kmanodaran/working_data_04/atc/ENCFF001TDO.bed"
 
 # Remove blacklist regions
 samtools view -L "$blacklist" -U "$prefix".filtered.bam -b "$bam" > "$prefix".blacklist.bam
