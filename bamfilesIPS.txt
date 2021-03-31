@@ -1,0 +1,12 @@
+/home/kmanodaran/working_data_04/atc/ATAC21012021/ESC/escIPS/peakcalling/XdupXMRL2346_ESC_p13_33_S5.bam
+/home/kmanodaran/working_data_04/atc/ATAC21012021/ESC/escIPS/peakcalling/XdupXMRL2442_ESC_p13_34_S11.bam 
+/home/kmanodaran/working_data_04/atc/ATAC21012021/ESC/escIPS/peakcalling/XdupXMRL2448_ESC_p13_35_S17.bam 
+/home/kmanodaran/working_data_04/atc/ATAC21012021/TNT/tntIPS/peakcalling/XdupXMNOchrMRL2457_tnt_ips_p43_S26.bam 
+/home/kmanodaran/working_data_04/atc/ATAC21012021/TNT/tntIPS/peakcalling/XdupXMRL2347_tnt_ips_p42_S6.bam 
+/home/kmanodaran/working_data_04/atc/ATAC21012021/TNT/tntIPS/peakcalling/XdupXMRL2449_tnt_ips_p44_S18.bam 
+/home/kmanodaran/working_data_04/atc/ATAC21012021/N2P/n2pIPS/peakcalling/XdupXMRL2439N2P_ips_p13_73_S8.bam 
+/home/kmanodaran/working_data_04/atc/ATAC21012021/N2P/n2pIPS/peakcalling/XdupXMRL2443N2P_ips_p9_21_S12.bam 
+/home/kmanodaran/working_data_04/atc/ATAC21012021/N2P/n2pIPS/peakcalling/XdupXMRL2450N2P_ips_p9_22_S19.bam
+/home/kmanodaran/working_data_04/atc/ATAC21012021/Primed/primedIPS/peakcalling/XdupXMRL2438_primed_p40_S7.bam
+/home/kmanodaran/working_data_04/atc/ATAC21012021/Primed/primedIPS/peakcalling/XdupXMRL2454_primed_p42_S23.bam
+/home/kmanodaran/working_data_04/atc/ATAC21012021/Primed/primedIPS/peakcalling/XdupXMRL2458_primed_p44_S27.bam
